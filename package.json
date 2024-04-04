@@ -1,9 +1,9 @@
 {
   "name": "material-kit-react",
   "version": "4.0.0",
-  "author": "Devias",
+  "author": "Jax-baiya",
   "licence": "MIT",
-  "homepage": "https://devias.io",
+  "homepage": "https://github.com/Jax-Baiya",
   "private": false,
   "scripts": {
     "dev": "next dev",
@@ -32,7 +32,7 @@
     "@phosphor-icons/react": "2.0.15",
     "apexcharts": "3.46.0",
     "dayjs": "1.11.10",
-    "next": "14.1.3",
+    "next": "^14.1.3",
     "react": "18.2.0",
     "react-apexcharts": "1.4.1",
     "react-dom": "18.2.0",
