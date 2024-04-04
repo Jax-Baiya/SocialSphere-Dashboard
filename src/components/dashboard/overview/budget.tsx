@@ -13,7 +13,7 @@ export interface BudgetProps {
   diff?: number;
   trend: 'up' | 'down';
   sx?: SxProps;
-  value: number;
+  value: string;
 }
 
 export function Budget({ diff, trend, sx, value }: BudgetProps): React.JSX.Element {

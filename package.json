@@ -3,9 +3,12 @@
   "version": "4.0.0",
   "author": "Jax-baiya",
   "licence": "MIT",
-  "homepage": "https://github.com/Jax-Baiya",
+  "homepage": "https://Jax-Baiya.github.io/SocialSphere-Dashboard",
   "private": false,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out",
+    "export": "next export",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

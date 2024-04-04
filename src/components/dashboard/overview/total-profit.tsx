@@ -10,7 +10,7 @@ import LinearProgress from '@mui/material/LinearProgress';
 
 export interface TotalProfitProps {
   sx?: SxProps;
-  value: string;
+  value: number;
 }
 
 export function TotalProfit({ value, sx }: TotalProfitProps): React.JSX.Element {
