@@ -2,6 +2,8 @@
 
 Welcome to the SocialSphere Dashboard, the all-in-one solution for unifying your digital presence across various social media platforms. Our dashboard provides you with insights and analytics, helping you to make informed decisions about your social media strategy.
 
+[![SocialSphere Dashboard](https://github.com/Jax-Baiya/SocialSphere-Dashboard/blob/main/public/assets/thumbnail.png)](_)
+
 ## Features
 
 - **Unified Analytics**: View key performance indicators (KPIs) from all your social media accounts in one place.
@@ -25,7 +27,7 @@ Before you begin, ensure you have the following installed:
    ```
 2. Navigate to the project directory:
    ```sh
-   cd socialsphere-dashboard
+   cd SocialSphere-Dashboard
    ```
 3. Install the dependencies:
    ```sh
@@ -40,11 +42,11 @@ Before you begin, ensure you have the following installed:
 
 To run the dashboard locally:
 ```sh
-yarn start
+yarn dev
 ```
 or
 ```sh
-npm start
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -54,6 +56,36 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - [React](https://reactjs.org/) - The web framework used
 - [Material-UI](https://mui.com/) - For the UI components
 - [Recharts](http://recharts.org/) - A composable charting library built on React components
+
+## File Structure
+
+Within the download you'll find the following directories and files:
+
+```
+┌── .editorconfig
+├── .eslintrc.js
+├── .gitignore
+├── CHANGELOG.md
+├── LICENSE.md
+├── next-env.d.ts
+├── next.config.js
+├── package.json
+├── README.md
+├── tsconfig.json
+├── public
+└── src
+	├── components
+	├── contexts
+	├── hooks
+	├── lib
+	├── styles
+	├── types
+	└── app
+		├── layout.tsx
+		├── page.tsx
+		├── auth
+		└── dashboard
+```
 
 ## Contributing
 
